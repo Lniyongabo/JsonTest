@@ -41,5 +41,8 @@
             "ROLE_ADMIN"
         ]
     }
-]
+],
+  "profile": {
+    "name": "typicode"
+  }
 }
