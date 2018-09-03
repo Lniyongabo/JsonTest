@@ -1,5 +1,5 @@
 {
-  "sample": [
+  "posts": [
     {
         "id": "5b8cfa716b5f7a4910f52919",
         "title": "Title One",
@@ -21,7 +21,25 @@
         "content": "content of Post Four"
     }
     ],
-  "profile": {
-    "name": "typicode"
-  }
+  "users": [
+    {
+        "id": "5b8d37206b5f7a611889f6b5",
+        "username": "user",
+        "email": "user@example.com",
+        "active": true,
+        "roles": [
+            "ROLE_USER"
+        ]
+    },
+    {
+        "id": "5b8d37206b5f7a611889f6b6",
+        "username": "admin",
+        "email": "admin@example.com",
+        "active": true,
+        "roles": [
+            "ROLE_USER",
+            "ROLE_ADMIN"
+        ]
+    }
+]
 }
